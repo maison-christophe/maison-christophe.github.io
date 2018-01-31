@@ -1,0 +1,207 @@
+
+
+.first-container{
+    /*background: #ededed;*/
+    text-align:center;
+    font-style: italic;
+
+}
+
+/*-----------  Navagation bar -----------*/
+
+.navbar{
+    border: none !important;
+}
+/*
+.navbar-default{
+     background-color: #fff;
+     font-size: 16px;
+     padding: 10px 0px;
+}*/
+
+/*.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand{
+    color:yellow;
+    font-weight:bold;
+    font-size:18px;
+}*/
+
+/*.navbar-default .navbar-nav>li>a {
+    color: #777;
+    font-size: 15px;
+}*/
+
+/*.navbar-default .navbar-nav>li>a:hover {
+    font-size:16px;
+    color: #666;
+    background-color: transparent;
+    text-decoration: underline;
+
+}*/
+
+ li {
+    display: inline;
+    list-style: none;
+    float: left;
+    margin: 0;
+    padding: 14px 19px;
+}
+
+
+
+
+/*-----------  Section 01 Home -----------*/
+
+
+section#home {
+    margin-top: 134px;
+}
+
+.carousel-indicators li {
+    border: 0px solid #fff;
+    border-radius: 0px;
+}
+
+.carousel-indicators .active {
+    background-color: transparent;
+}
+
+.carousel-indicators-numbers li {
+      text-indent: 0;
+      margin: 0px 16px;
+}
+
+.carousel-indicators-numbers li:hover{
+    margin: 0 2px;
+    width: 30px;
+    
+
+}
+
+
+.carousel-indicators-numbers{
+    bottom:-50px;
+}
+
+.margin-check {
+  display: inline-block;
+  position: relative;
+}
+
+.margin-check:after {
+    position: absolute;
+    content: '';
+    border-bottom: 2px solid #d2d7da;
+    width: 40px;
+    transform: translateX(-40px);
+    bottom: -10px;
+    left: 72%;
+    margin-right: 33px;
+}
+
+/*----------- Section 02 About me-----------*/
+
+section#aboutme {
+    margin: 250px auto;
+}
+
+
+/*----------- Section 03 Art-----------*/
+
+section#art {
+    margin: 250px auto;
+}
+
+.row.ronda {
+    margin-top: 40px;
+}
+
+
+/*----------- Contact me -----------*/
+
+h2.contact {
+    margin: 0px;
+    padding: 0px;
+}
+
+img.icons {
+    width: 20px;
+    float: left;
+    margin-right: 15px;
+}
+
+.contact-spacing {
+    margin: 36px 0px;
+    border-bottom: 1px solid #ededed;
+}
+
+.col-md-8.formspace {
+    margin: 58px 0px;
+}
+
+form {
+ width:90%;
+  max-width:500px;
+  margin:15px auto;
+}
+
+input, textarea {
+  width:100%;
+  margin-bottom:10px;
+  border-radius:3px;
+  border:solid 1px #ccc;
+  padding:4px 7px;
+}
+
+#correo,  {
+  width:49%;
+}
+
+
+
+button {
+  width: 120px;
+  border-radius:3px;
+  border:solid 1px #ccc;
+  padding:4px 7px;
+}
+
+
+button:hover {
+  background-color:#C0BDB8;
+}
+
+/*----------- footer -----------*/
+
+
+.copy{
+    color:#000;
+    font-family: 'Arial',sans-serif;
+    font-size:14px;
+    padding: 20px 0;
+}
+
+
+
+/*----------- Media -----------*/
+
+@media (min-width: 768px){
+
+.navbar-right {
+    float: left!important;
+    margin-right: -15px;
+}
+
+.navbar-right .dropdown-menu {
+    right: auto; 
+    left: auto;
+}
+
+}
+
+@media (max-width: 768px){
+.col-md-4.col-md-offset-8{
+    background-color: red;
+}
+
+}
+

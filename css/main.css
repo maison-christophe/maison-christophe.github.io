@@ -1,0 +1,344 @@
+
+
+.first-container{
+    /*background: #ededed;*/
+    text-align:center;
+    font-style: italic;
+
+}
+
+/*-----------  Navagation bar -----------*/
+
+.navbar{
+    border: none !important;
+}
+
+
+ li {
+    display: inline;
+    list-style: none;
+    float: left;
+    margin: 0;
+    padding: 14px 19px;
+}
+
+.navbar-inverse .navbar-toggle{
+  border:none;
+}
+
+
+/*-----------  Section 01 Home -----------*/
+
+
+.particles-js-canvas-el {
+   position: absolute;
+   display: block;
+   top: 0;
+   left: 0;
+   z-index: 1;
+   background-repeat: no-repeat;
+   background-position: bottom;
+   background-size: cover;
+}
+
+
+
+section#home {
+    margin: 70px -24px 0px;
+
+}
+
+
+.carousel-indicators-numbers li {
+      text-indent: 0;
+      margin: 0px 16px;
+}
+
+
+.carousel-indicators-numbers{
+    bottom:-50px;
+}
+
+.margin-check {
+  display: inline-block;
+  position: relative;
+}
+
+img.slide1 {
+    height: 900px!important;
+    width: 100%;
+}
+
+/*.margin-check:after {
+    position: absolute;
+    content: '';
+    border-bottom: 2px solid #d2d7da;
+    width: 40px;
+    transform: translateX(-40px);
+    bottom: -10px;
+    left: 72%;
+    margin-right: 33px;
+}*/
+
+/*----------- Section 02 About me-----------*/
+
+section#aboutme {
+    margin-top: 300px;
+}
+
+h1.titulo {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+
+hr.linea {
+    width: 150px;
+}
+
+.sobre {
+    width: 90px;
+    border: 1px solid #ededed;
+    margin: 15px;
+    border-radius: 50px;
+    padding: 10px;
+}
+
+.col-md-4.sobremi {
+    margin: 33px 0px;
+}
+
+/*----------- Section 03 Art-----------*/
+
+section#art {
+    margin-top: 170px;
+}
+
+
+p.aboutme {
+    margin: 60px 0px 100px;
+    text-align: center;
+}
+
+.row.ronda {
+    margin-top: 40px;
+}
+
+
+.col-md-4.espacio {
+    margin-bottom: 70px;
+}
+
+.pop-up{
+ transition: transform 0.4s ease;
+ position:relative;
+ z-index: initial;
+
+}
+
+.pop-up:hover {
+  transform: scale(1.1);
+  z-index: 999;
+  margin-right:5px;
+}
+
+.pop-up img{
+  width:100%;
+}
+
+.info.info-one{
+color:#666;
+width: 80px;
+border-bottom:1px dotted #666;
+position: absolute;
+top:0px;
+left:0;
+opacity: 0;
+transition: opacity 0.4s, top 0.4s;
+
+}
+
+.pop-up:hover .info.info-one{
+  opacity: 1;
+  top:-30px;
+
+}
+
+.info.info-two{
+color: #666;
+background-color: #ffffff;
+width: 100px;
+border-bottom: 1px dotted #666;
+position: absolute;
+top:49%;
+right:-34px;
+opacity: 0;
+transition: opacity 0.4s, top 0.4s;
+
+}
+
+.pop-up:hover .info.info-two{
+  opacity: 1;
+  right:30;
+
+}
+
+.fancybox-image, .fancybox-spaceball{
+width: auto !important;
+}
+
+
+/*----------- Contact me -----------*/
+
+h2.contact {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+img.icons {
+    width: 20px;
+    float: left;
+    margin-right: 15px;
+}
+
+.contact-spacing {
+    margin: 36px 0px;
+    border-bottom: 1px solid #ededed;
+}
+
+.col-md-8.formspace {
+    margin: 58px 0px;
+}
+
+form {
+ width:90%;
+  max-width:500px;
+  margin:15px auto;
+}
+
+input, textarea {
+  width:100%;
+  margin-bottom:10px;
+  border-radius:3px;
+  border:solid 1px #ccc;
+  padding:4px 7px;
+}
+
+#correo  {
+  width:100%;
+}
+
+
+
+button {
+  width: 120px;
+  border-radius:3px;
+  border:solid 1px #ccc;
+  padding:4px 7px;
+}
+
+
+button:hover {
+  background-color:#C0BDB8;.list-inline>li
+}
+
+/*----------- footer -----------*/
+
+
+
+li.s-icons {
+    text-align: center;
+    float: none;
+}
+
+.copy{
+    color:#000;
+    font-family: 'Arial',sans-serif;
+    font-size:14px;
+    padding: 20px 0;
+}
+
+.fa {
+  padding: 10px;
+  font-size: 15px;
+  width: 40px;
+  height:40px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  
+  display: inline !important;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+a:focus, a:hover {
+    color: #ededed !important;
+    text-decoration: none;
+}
+
+.fa-twitter {
+  background: #000;
+  color: white;
+}
+
+.fa-facebook {
+  background: #000;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #000;
+  color: white;
+}
+
+
+/*----------- Media -----------*/
+
+@media (min-width: 768px){
+
+.navbar-right {
+    float: left!important;
+    margin-right: -15px;
+  }
+
+.navbar-right .dropdown-menu {
+    right: auto; 
+    left: auto;
+  }
+
+
+  
+
+}
+
+@media (max-width: 768px){
+.col-md-4.col-md-offset-8{
+    background-color: red;
+}
+
+.navbar-header.page-scroll {
+    height: 65px;
+  }
+
+img.logo-responsive {
+    width: 69%;
+ }
+
+img.slide1 {
+    height: 300px!important;
+    width: 100%;
+}
+span.info.info-two {
+    padding-right: 29px;
+}
+
+span.info.info-one {
+    padding-left: 10px;
+}
+
+}
+
